@@ -22,7 +22,7 @@ const Info = (props) => {
         <Data
           text="Windspeed"
           value={`${Windspeed} m/s`}
-          image="/Wind speed.png"
+          image="/Windspeed.png"
         />
       </div>
 
@@ -30,7 +30,7 @@ const Info = (props) => {
         <Data
           text="Wind direction"
           value={d2d(deg)}
-          image="/Wind direction.png"
+          image="/Winddirection.png"
         />
         <Data
           text="Visibility"
